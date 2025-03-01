@@ -11,3 +11,9 @@ import { storeToRefs } from "pinia";
 const { app } = storeToRefs(useAppStore());
 const { setTheme } = useAppStore();
 </script>
+
+<style lang="scss" scoped>
+p {
+  color: grey;
+}
+</style>
